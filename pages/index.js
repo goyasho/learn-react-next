@@ -1,14 +1,8 @@
-import Link from 'next/link'
+import Header from '../components/Header'
 
 const Index = () => (
   <div>
-    {/* aタグを<Link>コンポーネントで囲い、hrefなどのリンクの情報は<Link>に渡します。 */}
-    <Link href="/about">
-      <a style={{ fontSize: 20 }}>About Page</a>
-    </Link>
-    <Link href="/about">
-      <button>Go to About Page</button>
-    </Link>
+    <Header />
     <p>Hello Next.js</p>
   </div>
 )
